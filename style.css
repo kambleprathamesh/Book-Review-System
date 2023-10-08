@@ -20,6 +20,10 @@ body {
     color: #333;
 }
 
+#add-review{
+    padding: 25px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;

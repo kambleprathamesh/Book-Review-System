@@ -1,3 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nosifer&family=Oswald:wght@700&family=Satisfy&display=swap');
+
+
 /* Reset some default styles */
 * {
     margin: 0;
@@ -13,7 +19,10 @@
 
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Anton', sans-serif;
+font-family: 'Nosifer', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Satisfy', cursive;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -22,6 +31,11 @@ body {
 
 #add-review{
     padding: 25px;
+    color:rgb(133, 8, 43);
+    font-family: 'Anton', sans-serif;
+font-family: 'Nosifer', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Satisfy', cursive;
 }
 
 .container {
@@ -41,9 +55,9 @@ header {
 }
 
 /* Heading styles */
-h1, h2 {
+/* h1, h2 {
     color: var(--primary-color);
-}
+} */
 
 /* Form styles */
 form {
@@ -90,7 +104,9 @@ li {
 
 /* Different color schemes */
 .secondary-color {
-    --primary-color: var(--secondary-color);
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    color:rgb(133, 8, 43)
 }
 
 /* Additional styling for buttons */
